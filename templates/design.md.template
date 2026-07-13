@@ -1,0 +1,89 @@
+# Design: <!-- feature name -->
+
+> Phase 2 — [process/2-design.md](../process/2-design.md).  
+> Delete sections that do not apply. Keep under ~120 lines when possible.
+
+| Field | Value |
+|-------|--------|
+| **Status** | draft / approved / implemented |
+| **Author** | |
+| **Repo** | |
+| **Tracking** | issue / PR link |
+
+## Problem
+
+What is broken or missing? Who is affected?
+
+## Goals
+
+- 
+
+## Non-goals
+
+- 
+
+## Success criteria
+
+- [ ] Measurable outcome 1
+- [ ] 
+
+## User / system flows
+
+```
+<!-- ASCII or mermaid: main path + error paths -->
+```
+
+## Approach
+
+### Architecture
+
+<!-- Components, boundaries, what talks to what -->
+
+### Data
+
+<!-- Schema changes, migrations, API payloads -->
+
+### UI / UX (if applicable)
+
+<!-- Screens, states: loading / empty / error; link Figma or design-maps/ -->
+
+### Design tokens / visual
+
+<!-- Colors, spacing, typography — or "inherit from existing theme" -->
+
+## Files to change (expected)
+
+| Path | Change |
+|------|--------|
+| | |
+
+## Risks & mitigations
+
+| Risk | Mitigation |
+|------|------------|
+| | |
+
+## Test plan
+
+- [ ] Unit:
+- [ ] Integration:
+- [ ] Manual:
+
+## Agent instructions
+
+<!-- Copy-paste block for the implementing agent -->
+
+- Phase 3: [process/3-coding.md](../process/3-coding.md) + skill `karpathy-guidelines`
+- Phase 4: [process/4-testing.md](../process/4-testing.md) + [testing.md.template](testing.md.template)
+- Read `AGENTS.md` first; run commands from there
+- Stay within goals; do not expand scope
+
+## Open questions
+
+- [ ] 
+
+## Changelog
+
+| Date | Note |
+|------|------|
+| | created |

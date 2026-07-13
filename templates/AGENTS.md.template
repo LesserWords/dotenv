@@ -1,0 +1,74 @@
+# AGENTS.md
+
+> Project context for AI coding agents.  
+> Format: [agents.md](https://agents.md) — keep factual, under ~150 lines; link out for long docs.
+
+## Overview
+
+<!-- One paragraph: what this repo is, primary language/framework, how to run locally -->
+
+**Stack**:
+
+**Package manager**:
+
+## Setup
+
+```sh
+# install dependencies — use exact commands that work in this repo
+```
+
+## Commands
+
+| Task | Command |
+|------|---------|
+| Dev server | |
+| Build | |
+| Test (all) | |
+| Test (single) | |
+| Lint | |
+| Typecheck | |
+
+## Repository layout
+
+```
+<!-- High-level tree: where apps, packages, configs live -->
+```
+
+## Coding conventions
+
+<!-- Bullet rules agents must follow; reference preferences/ only if this repo differs -->
+
+- Match existing style in the touched directory
+- 
+
+## Do not touch
+
+<!-- Paths, generated files, vendored code, license headers -->
+
+- 
+
+## Testing expectations
+
+- Add or update tests for behavior you change
+- 
+
+## PR / commit
+
+- Branch naming:
+- Commit message:
+- Before opening PR:
+
+## Security & secrets
+
+- Never commit `.env`, keys, or credentials
+- 
+
+## Nested packages
+
+<!-- If monorepo: per-package AGENTS.md in subdirs override this file for local context -->
+
+## Related docs
+
+- Architecture:
+- Domain language: `CONTEXT.md` (optional — see [templates/CONTEXT.md.template](CONTEXT.md.template))
+- Contributing:

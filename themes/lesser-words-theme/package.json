@@ -1,0 +1,30 @@
+{
+  "name": "terpsikhore-theme",
+  "displayName": "Terpsikhore Theme",
+  "description": "Warm Solarized spinoff — light beige and dark brown variants",
+  "version": "0.1.0",
+  "publisher": "Terpsikhore",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["theme", "light", "dark", "solarized", "beige", "brown", "terpsikhore", "color theme"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LesserWords/dotenv"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Terpsikhore Light",
+        "uiTheme": "vs",
+        "path": "./themes/terpsikhore-light.json"
+      },
+      {
+        "label": "Terpsikhore Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/terpsikhore-dark.json"
+      }
+    ]
+  }
+}

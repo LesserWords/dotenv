@@ -1,0 +1,20 @@
+---
+description: <!-- Short label shown in Cursor rule picker -->
+globs: **/*.{ts,tsx}   # omit or set alwaysApply: true for global rules
+alwaysApply: false
+---
+
+# <!-- Rule title -->
+
+<!-- One concern per file. Under ~50 lines. Concrete examples. -->
+
+## Instructions
+
+- 
+
+## Examples
+
+```typescript
+// ❌ Avoid
+// ✅ Prefer
+```

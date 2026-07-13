@@ -1,0 +1,39 @@
+# Testing: <!-- feature / PR name -->
+
+Linked design: `design.md` or plan: `planning.md`
+
+## Success criteria (from plan/design)
+
+- [ ] 
+- [ ] 
+
+## Commands (from AGENTS.md)
+
+| Check | Command | Result |
+|-------|---------|--------|
+| Unit tests | | pass / fail |
+| Integration | | pass / fail / N/A |
+| Lint | | pass / fail |
+| Typecheck | | pass / fail |
+
+## Test-first log (if applicable)
+
+| Step | Status |
+|------|--------|
+| Repro / contract test written | |
+| Fails on baseline | |
+| Implementation complete | |
+| Full suite green | |
+
+## Manual verification
+
+- [ ] 
+
+## Regressions / notes
+
+- 
+
+## Sign-off
+
+- [ ] Phase 4 checklist in [process/4-testing.md](../process/4-testing.md) complete
+- [ ] karpathy-guidelines: goal-driven criteria met

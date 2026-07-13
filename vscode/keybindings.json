@@ -1,0 +1,16 @@
+// VSCode keybindings — place in %APPDATA%\Code\User\keybindings.json
+[
+  // Quick open terminal
+  { "key": "ctrl+`", "command": "workbench.action.terminal.toggleTerminal" },
+
+  // Move line up/down without selection
+  { "key": "alt+up", "command": "editor.action.moveLinesUpAction" },
+  { "key": "alt+down", "command": "editor.action.moveLinesDownAction" },
+
+  // Duplicate line
+  { "key": "ctrl+d", "command": "editor.action.copyLinesDownAction", "when": "editorTextFocus && !editorReadonly" },
+  { "key": "ctrl+d", "command": "-editor.action.addSelectionToNextFindMatch", "when": "editorFocus" },
+
+  // Close other editors
+  { "key": "ctrl+alt+w", "command": "workbench.action.closeOtherEditors" }
+]

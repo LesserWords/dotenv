@@ -1,0 +1,45 @@
+# Plan: <!-- initiative name -->
+
+| Field | Value |
+|-------|--------|
+| **Status** | draft / approved |
+| **Size** | S / M / L |
+| **Tracking** | issue link |
+
+## Problem
+
+<!-- One paragraph -->
+
+## Success criteria
+
+- [ ] Verifiable outcome 1
+- [ ] 
+
+## Assumptions
+
+- 
+
+## Approach options
+
+| Option | Pros | Cons |
+|--------|------|------|
+| A | | |
+| B | | |
+
+**Chosen**: <!-- A/B and why -->
+
+## Steps
+
+```
+1. [Step] → verify: [check]
+2. [Step] → verify: [check]
+```
+
+## Out of scope
+
+- 
+
+## Next
+
+- [ ] Approve plan → create [design.md](design.md.template) (M/L)
+- [ ] Skip design (S only) → coding with phase 3 rules

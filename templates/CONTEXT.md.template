@@ -1,0 +1,28 @@
+# CONTEXT.md
+
+<!-- Project domain language for agents. Keep terms specific to this repo — not general programming jargon. -->
+
+{One or two sentences: what this context is and why it exists.}
+
+## Language
+
+**{Term}**:
+{One or two sentences: what it IS.}
+_Avoid_: {synonyms not to use}
+
+**{Term}**:
+{Definition.}
+_Avoid_: {…}
+
+<!-- Add only project-specific concepts. Pick one word per concept; list rejects under _Avoid_. -->
+
+## Relationships
+
+<!-- Optional: how major terms/modules relate. Delete section if unused. -->
+
+- **{A} → {B}**: {how they connect}
+
+## Related
+
+- ADRs / architecture:
+- `AGENTS.md` (commands — keep ops there, language here)

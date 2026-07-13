@@ -1,0 +1,25 @@
+# starship.toml
+# Cross-shell prompt configuration template.
+
+format = """
+[╭─user─](bold cyan)$username[@](bold cyan)$hostname[─](bold cyan)$directory$git_branch$git_status$c$golang$nodejs$python$rust
+[╰─](bold cyan)$character"""
+
+[username]
+show_always = false
+format = "[$user]($style)"
+
+[hostname]
+ssh_only = true
+format = "[$hostname]($style)"
+
+[directory]
+style = "bold blue"
+truncate_to_repo = false
+
+[git_branch]
+symbol = "🌱 "
+style = "bold purple"
+
+[git_status]
+style = "bold red"

@@ -1,0 +1,15 @@
+node_modules/
+*.vsix
+.DS_Store
+Thumbs.db
+*.log
+
+# Secrets / env (also in git/.gitignore_global for machines that install it)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+**/credentials.json
+**/*secret*

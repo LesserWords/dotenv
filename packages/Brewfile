@@ -1,0 +1,23 @@
+# Brewfile (Template)
+# Use this to install packages on macOS or Linux with Homebrew.
+# Run: brew bundle install --file=packages/Brewfile
+
+tap "homebrew/core"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+
+# CLI Tools
+brew "git"
+brew "gh" # GitHub CLI
+brew "starship"
+brew "fzf"
+brew "ripgrep"
+brew "jq"
+brew "tree"
+brew "wget"
+brew "curl"
+
+# Applications (macOS usually)
+# cask "visual-studio-code"
+# cask "alacritty"
+# cask "font-cascadia-code-pl"
