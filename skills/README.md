@@ -13,10 +13,10 @@ Procedural knowledge in `SKILL.md` files. **Versioned skills** in this folder ar
 
 | Phase | Skills |
 |-------|--------|
-| Planning | **`grilling`** / **`grill-me`**, **`repo-assessment-openspec-graphify`** |
-| Design | **`grilling`** / **`grill-me`**, `design-map` (external), **`repo-assessment-openspec-graphify`** |
+| Planning | **`grilling`** / **`grill-me`**, **`repo-assessment-openspec-graphify`**, **`message-broker-audit`** |
+| Design | **`grilling`** / **`grill-me`**, `design-map` (external), **`repo-assessment-openspec-graphify`**, **`message-broker-audit`** |
 | Coding | **`karpathy-guidelines`**, **`diagnosing-bugs`** |
-| Testing | **`karpathy-guidelines`**, **`diagnosing-bugs`**, `babysit` (external) |
+| Testing | **`karpathy-guidelines`**, **`diagnosing-bugs`**, **`message-broker-audit`**, `babysit` (external) |
 | Meta / continuity | **`handoff`**, **`skill-creator`** |
 
 ## Layout
@@ -29,6 +29,7 @@ skills/
 ├── grilling/ · grill-me/
 ├── diagnosing-bugs/
 ├── handoff/
+├── message-broker-audit/
 ├── repo-assessment-openspec-graphify/
 └── skill-creator/
 ```

@@ -19,13 +19,13 @@ Get-ChildItem -Path $Root -Directory | ForEach-Object {
         $item = Get-Item $dest -Force
         # Match install.sh: never delete a real directory/file that is not a link.
         if (-not $item.LinkType) {
-            Write-Warning "skip $name — $dest exists and is not a symlink"
+            Write-Warning "skip $name - $dest exists and is not a symlink"
             return
         }
         Remove-Item $dest -Force
     }
     New-Item -ItemType SymbolicLink -Path $dest -Target $_.FullName -Force | Out-Null
-    Write-Host "linked $name → $dest" -ForegroundColor Green
+    Write-Host "linked $name -> $dest" -ForegroundColor Green
 }
 
 Write-Host "Done. Skills in: $Target"

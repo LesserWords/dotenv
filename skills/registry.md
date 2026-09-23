@@ -22,6 +22,7 @@ Versioned in this repo under `skills/<name>/`. Install:
 | **diagnosing-bugs** | [diagnosing-bugs/](diagnosing-bugs/) | Coding, Testing | model | Diagnose/debug; broken, flaky, slow |
 | **handoff** | [handoff/](handoff/) | All | user | `/handoff` — compact session for a fresh agent |
 | **repo-assessment-openspec-graphify** | [repo-assessment-openspec-graphify/](repo-assessment-openspec-graphify/) | Planning, Design | model | OpenSpec + Graphify readiness, brownfield assessment — stop for approval |
+| **message-broker-audit** | [message-broker-audit/](message-broker-audit/) | Design, Coding, Testing | model | Message broker audit, async architecture, queues, pub/sub, retries, DLQ, 10x traffic breakdown |
 | **skill-creator** | [skill-creator/](skill-creator/) | — | model | Create/improve skills, evals, description optimization (Anthropic) |
 | *(add yours)* | `skills/<name>/` | | | |
 
